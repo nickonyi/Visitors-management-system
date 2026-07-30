@@ -56,6 +56,7 @@ export function AuthScreen() {
     try {
       if (mode === "signin") {
         const { error } = await signIn(email.trim(), password);
+        console.log("signIn error:", error);
         if (error) {
           setError(
             error.includes("Invalid login")
