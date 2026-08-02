@@ -316,7 +316,7 @@ export function AuthScreen() {
                   onClick={() =>
                     fillDemo({
                       email: `${r.value}@demo.app`,
-                      password: "demo1234",
+                      password: "demo123",
                     })
                   }
                   className="rounded-lg border border-slate-200 px-2 py-2 text-xs font-medium text-slate-600 hover:bg-slate-50 hover:border-slate-300 transition-colors"
